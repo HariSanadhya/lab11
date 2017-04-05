@@ -1,0 +1,14 @@
+---
+title: "SP500"
+author: "Hari Narayan Sanadhya"
+fontsize: 10pt
+date: "April 5, 2017"
+output: 
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=TRUE}
+knitr::opts_chunk$set(echo = TRUE)
+source('Source/SP500.R')
+```
