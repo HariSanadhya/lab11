@@ -8,7 +8,9 @@ output:
     variant: markdown_github
 ---
 
-```{r setup, include=TRUE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-source('Source/SP500.R')
+```
+
+```{r, code=readLines("Source/SP500.R")}
 ```
